@@ -1,0 +1,151 @@
+.pic {
+    display: block;
+    width: 300px;
+    height: auto;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.logo {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.products {
+    width:150px;
+    font-weight: bold;
+    font-size: 26px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.cart{
+    font-size: 26px;
+    margin-bottom: 100px;
+    color: black;
+}
+
+.our{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;
+color: black;}
+
+.description{
+    width: 300px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+    text-decoration: underline;
+    text-decoration-color: rgb(195, 195, 195);
+    color: black;
+}
+
+.price{
+    width: 300px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+
+
+
+hr {
+    position: relative;
+    top: 0px;
+    border: none;
+    height: 2.5px;
+    background: black;
+    margin-bottom: 20px;
+}
+
+.original{
+    display: block;
+    width: 300px;
+    height: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+.apple{
+    display: block;
+    width: 300px;
+    height: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+.raisin{
+    display: block;
+    width: 300px;
+    height: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+.walnut{
+    display: block;
+    width: 300px;
+    height: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+.double-chocolate{
+    display: block;
+    width: 300px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+.strawberry{
+    display: block;
+    width: 300px;
+    height: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+
+
+.original:hover{background-color: yellow;}
+.apple:hover{background-color: yellow;}
+.raisin:hover{background-color: yellow;}
+.walnut:hover{background-color: yellow;}
+.double-chocolate:hover{background-color: yellow;}
+.strawberry:hover{background-color: yellow;}
