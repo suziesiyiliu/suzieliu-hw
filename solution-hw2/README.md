@@ -1,6 +1,7 @@
-# HW2 Materials
+# PUI homework
 
-Find the materials for your homework here:
+Deployed website: `add the URL to your deployed website` 
+https://github.com/suziesiyiliu/suzieliu-hw/blob/main/solution-hw2/hw2-gallery.html
 
-* The mockups for all webpages for closer inspection, if needed. Reminder: you don't have to be pixel-accurate; the overall proportions should match.
-* Use the other assets from your previous homework assignment
+Repository link: `add the URL to this repository` 
+https://github.com/suziesiyiliu/suzieliu-hw.git
