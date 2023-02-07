@@ -1,0 +1,144 @@
+body {
+    border: 1px;
+    border-style: solid;
+    margin:10px;
+    font-family: sans-serif;
+}
+
+.cornerText{
+    display:flex;
+    justify-content: flex-end;
+    margin-right:80px;
+    margin-top: 70px; 
+    margin-bottom: auto;    
+}
+
+.whole{display: flex;
+    justify-content:space-between;}
+
+.right{
+    flex-grow: 1;
+}
+
+hr {
+    position: relative;
+    margin-top:50px;
+    margin-bottom:70px;
+    border: none;
+    height: 4px;
+    background: black;
+}
+
+.item {display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-right:80px;
+}
+
+.itemLeft {display: flex;
+    justify-content:space-between;
+align-items: center;}
+
+.totalLine{display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-right:80px;
+    margin-top:30px;
+    margin-bottom:70px;}
+
+.pic {
+    display: block;
+    width: 120px;
+    height: auto;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.shoppingCart{
+    font-size: 35px;
+    margin-bottom: 100px;
+    text-align: left;
+}
+
+.logo {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.products {
+    font-size: 26px;
+    color: black;
+    display: block;
+    margin-right: 70px;
+}
+
+.cart{
+    display: block;
+    margin-left: auto;
+    font-size: 26px;
+    font-weight: bold;
+    width: fit-content;
+    color: black;
+    background-color: yellow;
+}
+
+a:link {text-decoration: none;color: black;}
+a:visited {text-decoration: none;color: black;}
+a:hover {text-decoration: none;color: black;}
+a:active {text-decoration: none;
+color: black;}
+
+
+
+.title{
+    font-size: 40px;
+}
+
+.remove{
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: rgb(189, 189, 189);
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+.textSmall{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    color: black;
+}
+
+.text{margin-left: 40px;}
+
+.price{font-size: 30px;}
+.totalPrice{font-size: 30px;}
+
+
+.total{
+    font-size: 30px;
+    margin-left:160px;
+}
+
+.checkout{
+    width: fit-content;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: yellow;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right:80px;
+    margin-bottom: 100px;
+}
