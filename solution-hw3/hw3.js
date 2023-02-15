@@ -82,7 +82,7 @@ selectPackSize.addEventListener("change", displayPriceFinal);
 function displayPriceFinal(){
   priceFinal=pricePartA*pricePartB;
   let priceToDisplay=document.querySelector(".price");
-  priceToDisplay.innerText = "$"+ priceFinal
+  priceToDisplay.innerText = "$"+ priceFinal.toFixed(2);
   console.log(priceToDisplay);}
 
 
