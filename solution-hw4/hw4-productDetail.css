@@ -85,7 +85,7 @@ a:active {text-decoration: none;color: black;}
     margin-bottom: 50px;
 }
 
-.originalCinnamonRoll{
+#rollType{
     font-size: 35px;
     margin-bottom: 100px;
     text-align: left;
