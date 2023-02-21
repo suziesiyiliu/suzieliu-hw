@@ -44,7 +44,7 @@ rollType.innerText=chosenRoll+" Cinnamon Roll"
 
 //update the image
 const rollPic=document.querySelector("#pic")
-rollPic.src='./products/' + chosenRoll + '-cinnamon-roll.jpg';
+rollPic.src='products/' + chosenRoll + '-cinnamon-roll.jpg';
 
 
 
