@@ -45,6 +45,7 @@ rollType.innerText=chosenRoll+" Cinnamon Roll"
 //update the image
 const rollPic=document.querySelector("#pic")
 rollNameForPic=rolls[chosenRoll].imageFile;
+console.log(rollNameForPic);
 rollPic.src='./products/' + rollNameForPic;
 
 
