@@ -44,7 +44,8 @@ rollType.innerText=chosenRoll+" Cinnamon Roll"
 
 //update the image
 const rollPic=document.querySelector("#pic")
-rollPic.src='products/' + chosenRoll + '-cinnamon-roll.jpg';
+rollNameForPic=rolls[chosenRoll].imageFile;
+rollPic.src='./products/' + rollNameForPic;
 
 
 
@@ -146,7 +147,8 @@ function displayPriceFinal(){
   priceFinal=pricePartA*pricePartB;
   let priceToDisplay=document.querySelector(".price");
   priceToDisplay.innerText = "$"+ priceFinal.toFixed(2);
-  console.log(priceToDisplay);}
+  console.log(priceToDisplay);
+}
 
 
 
