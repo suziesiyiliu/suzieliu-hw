@@ -1,0 +1,173 @@
+.pic {
+    display: block;
+    width: 300px;
+    height: auto;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+body {
+    border: 1px;
+    border-style: solid;
+    margin:10px;
+    font-family: sans-serif;
+}
+
+.logo {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.menu{display: flex;
+    justify-content:space-between;}
+
+.menuRight{
+    flex-grow: 1;
+}
+
+.line{display: flex;
+padding-left: 60px;
+padding-right: 60px;
+justify-content:space-between;
+}
+
+.cornerText{
+    display:flex;
+    justify-content: flex-end;
+    margin-right:80px;
+    margin-top: 70px; 
+    margin-bottom: auto;    
+}
+
+
+.products {
+    width:fit-content;
+    font-weight: bold;
+    font-size: 26px;
+    background-color: yellow;
+    display: block;
+    margin-right: 70px;
+}
+
+.cart{
+    font-size: 26px;
+    color: black;
+    display: block;
+}
+
+.our{
+    font-size: 35px;
+    margin-bottom: 100px;
+    text-align: left;
+}
+
+a:link {text-decoration: none;color: black;}
+a:visited {text-decoration: none;color: black;}
+a:hover {text-decoration: none;color: black;}
+a:active {text-decoration: none;
+color: black;}
+
+.description{
+    width: 300px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+    text-decoration: underline;
+    text-decoration-color: rgb(195, 195, 195);
+    color: black;
+}
+
+.price{
+    width: 300px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+
+hr {
+    position: relative;
+    margin-top:50px;
+    margin-bottom:70px;
+    border: none;
+    height: 4px;
+    background: black;
+}
+
+.original{
+    display: block;
+    width: 300px;
+    height: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+.apple{
+    display: block;
+    width: 300px;
+    height: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+.raisin{
+    display: block;
+    width: 300px;
+    height: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+.walnut{
+    display: block;
+    width: 300px;
+    height: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+.double-chocolate{
+    display: block;
+    width: 300px;
+    height: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+.strawberry{
+    display: block;
+    width: 300px;
+    height: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+
+
+.original:hover{background-color: yellow;}
+.apple:hover{background-color: yellow;}
+.raisin:hover{background-color: yellow;}
+.walnut:hover{background-color: yellow;}
+.double-chocolate:hover{background-color: yellow;}
+.strawberry:hover{background-color: yellow;}
