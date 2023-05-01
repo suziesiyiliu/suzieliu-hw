@@ -26,7 +26,7 @@ body{
 
 .veganName,.regularName{
     text-align: center;
-    font-size: 21px;
+    font-size: 23px;
     color:#8d6659;
     font-weight: bold;
     margin-bottom: 16px;
@@ -35,7 +35,7 @@ body{
 
 .ingredients{
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     color:#8d6659;
     font-family: "Open Sans", sans-serif;
     font-weight:lighter;
@@ -69,7 +69,7 @@ hr{
 .nutritionTitle{
     text-align: center;
     font-weight: bold;
-    font-size: 21px;
+    font-size: 23px;
     color:#8d6659;
     margin-bottom: 12px;
     font-family: "Open Sans", sans-serif;
@@ -86,7 +86,7 @@ hr{
     justify-content: space-around;
     text-align: left;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 22px;
     color:#8d6659;
     font-family: "Open Sans", sans-serif;
     margin: 0px;
@@ -109,7 +109,7 @@ hr{
     justify-content: space-around;
     text-align: left;
     font-size: 16px;
-    line-height: 16px;
+    line-height: 18px;
     color:#8d6659;
     font-family: "Open Sans", sans-serif;
     margin: 0px;
