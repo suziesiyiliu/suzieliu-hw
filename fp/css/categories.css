@@ -134,26 +134,25 @@ body{
     .textSmall{
         width: 75%;
     }
+}
 
-  }
+@media only screen and (max-width: 768px) {
+/* For tablets*/
+.column {
+    width: 35%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 12%;
+}
 
-  @media only screen and (max-width: 768px) {
-    /* For tablets*/
-    .column {
-      width: 35%;
-      margin-left: 2%;
-      margin-right: 2%;
-      margin-bottom: 12%;
-    }
+.round{
+    margin-bottom: 8%;
+}
 
-    .round{
-        margin-bottom: 8%;
-    }
-
-    .textSmall{
-        width: 80%;
-    }
-  }
+.textSmall{
+    width: 80%;
+}
+}
 
 
 
