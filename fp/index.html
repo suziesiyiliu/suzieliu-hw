@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <html lang="en">
+    <h1>
+    <head>
+        <title>PUI FP</title>
+        <script defer src="js\categories.js"></script>
+        <script src="js\jquery-3.6.4.min.js"></script>
+        <link rel="stylesheet" href="css\index.css">
+    </head>
+    
+    <body role="main">
+        <div class="text">
+            <img class="title" alt="is vegan healthier?" src="links\whiteTitle.png">
+        </div>
+
+        <div class="text">
+            <img class="answer" alt="Yes and no!" src="links\answer.png">
+        </div>
+
+        
+
+        <a href="categories.html">
+            <div class="button">
+                explore by product
+            </div>
+        </a>
+
+    </body>
+
+    <script>
+
+        $(document).ready(function(){
+            $(".title").on("mouseover",function(){
+                $(".title").css({opacity:0})});
+        })
+        
+        $(document).ready(function(){
+            $(".title").on("mouseover",function(){
+                $(".answer").css({opacity:1})});
+        })
+
+        $(document).ready(function(){
+            $(".title").on("mouseout",function(){
+                $(".title").css({opacity:1})});
+        })
+
+        $(document).ready(function(){
+            $(".title").on("mouseout",function(){
+                $(".answer").css({opacity:0})});
+        })
+
+        $(document).ready(function(){
+            $(".title").on("mouseover",function(){
+                $(".button").css({opacity:1})});
+        })
+        
+    </script>
+
+</html>

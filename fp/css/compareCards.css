@@ -1,0 +1,170 @@
+body{
+    min-width: 700px;
+    align-content: center;
+    margin: 0px;
+    background-color: #909676;
+}
+
+
+#back{
+    max-width: 20px;
+    min-width: 12px;
+    width: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+.round{
+    display: block;
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.veganName,.regularName{
+    text-align: center;
+    font-size: 16px;
+    color:#8d6659;
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.ingredients{
+    text-align: center;
+    font-size: 11px;
+    color:#8d6659;
+    font-family: "Open Sans", sans-serif;
+    font-weight:lighter;
+    margin-bottom: 20px;
+}
+
+hr{
+    color: #909676;
+    border-top:0.5px dashed;
+    margin-bottom: 20px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    margin-top: 0%;
+}
+
+.card{
+    min-width: 230px;
+    width: 25%;
+    padding: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 50px;
+    background-color: #F2F5E9;
+    outline: 3.5px solid #8d6659;
+
+}
+
+.nutritionTitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color:#8d6659;
+    margin-bottom: 12px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.nutrition{
+    display: flex;
+    justify-content:space-around;
+    margin: 0px;
+}
+
+.macros{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    font-size: 13px;
+    line-height: 18px;
+    color:#8d6659;
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+    font-weight:lighter
+}
+
+.macroName{
+    display: block;
+    margin-bottom: 0px;
+}
+
+.macroAmount{
+    display: block;
+    margin-left:25%;
+    margin-bottom: 0px;
+}
+
+.micros{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    font-size: 11.5px;
+    line-height: 14.5px;
+    color:#8d6659;
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+    font-weight:lighter
+}
+
+.microName{
+    display: block;
+    margin-bottom: 0px;
+}
+
+.microAmount{
+    display: block;
+    margin-left:25%;
+    margin-bottom: 0px;
+}
+
+.button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 11px;
+    color:#8d6659;
+    
+    font-family: "Open Sans", sans-serif;
+    min-width: 240px;
+    width: 20%;
+    padding: 0.7%;
+    border-radius: 20px;
+    background-color: #F2F5E9;
+    border: 3px solid #8d6659;
+
+}
+
+.button:hover{
+    background-color: #c8cdb8;
+}
+
+a:link {text-decoration: none; color: #8d6659;}
+
+
+@media only screen and (max-width: 768px) {
+    /* For tablets*/
+    .cards{display: block;
+    }
+
+    .card{
+        width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 8%;
+      padding-top: 8%;
+      padding-bottom: 8%;
+    }
+  }

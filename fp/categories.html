@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html>
+    <html lang="en">
+    <head>
+        <title>PUI FP</title>
+        <script defer src="js\categories.js"></script>
+        <link rel="stylesheet" href="css\categories.css">
+    </head>
+    
+    <body>
+
+        <!-- (A) MENU WRAPPER -->
+        <nav id="hamnav">
+            <!-- (B) THE HAMBURGER -->
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger"/>
+        
+            <!-- (C) MENU ITEMS -->
+            <div class="hamitems">
+                <img class="icon" alt="dairy icon" src="links\dairyWhite.png"
+                onmouseover="hover('dairy')" onmouseleave="leave('dairy')" 
+                onclick="openCategory('dairy')">
+
+                <img class="icon" alt="egg icon" src="links\eggWhite.png"
+                onmouseover="hover('egg')" onmouseleave="leave('egg')"
+                onclick="openCategory('egg')">
+
+                <img class="icon" alt="meat icon" src="links\meatWhite.png"
+                onmouseover="hover('meat')" onmouseleave="leave('meat')"
+                onclick="openCategory('meat')">
+
+                <img class="icon" alt="fish icon" src="links\fishWhite.png"
+                onmouseover="hover('fish')" onmouseleave="leave('fish')"
+                onclick="openCategory('fish')">
+            </div>
+        </nav>
+        
+        <h1>
+            <div class="nav" role="navigation">
+                <img class="icon" id="dairyIcon" alt="dairy icon" src="links\dairyWhite.png"
+                onmouseover="hover('dairy')" onmouseleave="leave('dairy')" 
+                onclick="openCategory('dairy')">
+
+                <img class="icon" id="eggIcon" alt="egg icon" src="links\eggWhite.png"
+                onmouseover="hover('egg')" onmouseleave="leave('egg')"
+                onclick="openCategory('egg')">
+
+                <img class="icon" id="meatIcon" alt="meat icon" src="links\meatWhite.png"
+                onmouseover="hover('meat')" onmouseleave="leave('meat')"
+                onclick="openCategory('meat')">
+
+                <img class="icon" id="fishIcon" alt="fish icon" src="links\fishWhite.png"
+                onmouseover="hover('fish')" onmouseleave="leave('fish')"
+                onclick="openCategory('fish')">
+            </div>
+        </h1>
+
+        <div class="white">
+            <div class="columns" id="dairy" role="main">
+
+                <div class="column">
+                    <a href="compareCards.html?product=almondMilk">
+                        <img class="round" alt="almond milk" src="links\almondMilk.png">
+                    </a>
+
+                    <a href="compareCards.html?product=almondMilk">
+                        <div class="textBig">
+                            ALMOND MILK
+                        </div>
+                    </a>
+        
+                    <div class="textSmall">
+                        Water, Almonds
+                    </div>
+
+                </div>
+
+
+                <div class="column">
+                    <a href="compareCards.html?product=oatMilk">
+                        <img class="round" alt="oat milk" src="links\oatMilk.png">
+                    </a>
+
+                    <a href="compareCards.html?product=oatMilk">
+                        <div class="textBig">
+                            OAT MILK
+                        </div>
+                    </a>
+        
+                    <div class="textSmall">
+                        Water, Oats
+                    </div>
+                </div>
+
+                <div class="column">
+                    <a href="compareCards.html?product=cashewMilk">
+                        <img class="round" alt="cashew milk" src="links\cashewMilk.png">
+                    </a>
+
+                    <a href="compareCards.html?product=cashewMilk">
+                        <div class="textBig">
+                            CASHEW MILK
+                        </div>
+                    </a>
+        
+                    <div class="textSmall">
+                        Water, Cashews
+                    </div>
+                </div>
+
+                <div class="column">
+                    <a href="compareCards.html?product=soyMilk">
+                        <img class="round" alt="soy milk" src="links\soyMilk.png">
+                    </a>
+
+                    <a href="compareCards.html?product=soyMilk">
+                        <div class="textBig">
+                            SOY MILK
+                        </div>
+                    </a>
+        
+                    <div class="textSmall">
+                        Water, Soybeans
+                    </div>
+                </div>
+
+            </div>
+            
+            
+
+
+            <div class="columns" id="egg" role="main">
+
+                <div class="column">
+                    <a href="compareCards.html?product=egg">
+                        <img class="round" alt="vegan egg" src="links\veganEgg.png">
+                    </a>
+
+                    <a href="compareCards.html?product=egg">
+                        <div class="textBig">
+                            VEGAN EGG
+                        </div>
+                    </a>
+        
+                    <div class="textSmall">
+                        Water, Mung Bean Protein Isolate, Expeller-Pressed Canola Oil, Corn Starch, Baking Powder: Helps to , Dehydrated Garlic, Dehydrated Onion, Gellan Gum, Natural Carrot Extractives, Natural Turmeric Extractives, Potassium Citrate, Soy Lecithin, Tapioca Syrup, Salt
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            
+            
+            <div class="columns" id="meat" role="main">
+
+                <div class="column">
+                    <a href="compareCards.html?product=beef">
+                        <img class="round" alt="vegan beef" src="links\veganBeef.png">
+                    </a>
+
+                    <a href="compareCards.html?product=beef">
+                        <div class="textBig">
+                            VEGAN BEEF
+                        </div>
+                    </a>
+        
+                    <div class="textSmall">
+                        Water, Textured Soy Protein Concentrate, Salt, Canola Oil, Natural Flavors, Garlic Powder, Yeast Extract, Onion Powder, Black Pepper
+                    </div>
+
+                </div>
+
+                <div class="column">
+
+                    <a href="compareCards.html?product=chicken">
+                        <img class="round" alt="vegan chicken" src="links\veganChicken.png">
+                    </a>
+        
+                    <a href="compareCards.html?product=chicken">
+                        <div class="textBig">
+                            VEGAN CHICKEN
+                        </div>
+                    </a>
+        
+                    <div class="textSmall">
+                        Water, Soy Protein Concentrate, Canola Oil, Distilled Vinegar, Salt, Yeast Extract, Citric Acid, Roasted Onion Powder, Sugar
+                    </div>
+                </div>
+
+
+                <div class="column">
+                    <a href="compareCards.html?product=sausage">
+                        <img class="round" alt="vegan sausage" src="links\veganSausage.png">
+                    </a>
+
+                    <a href="compareCards.html?product=sausage">
+                        <div class="textBig">
+                            VEGAN SAUSAGE
+                        </div>
+                    </a>
+        
+                    <div class="textSmall">
+                        Water, Pea Protein Isolate, Refined Coconut Oil, Sunflower Oil, Rice Protein, Potato Starch, Salt, Fruit and Vegetable Juice                </div>
+                </div>
+
+
+                <div class="column">
+                    <a href="compareCards.html?product=deli">
+                        <img class="round" alt="vegan deli" src="links\veganDeli.png">
+                    </a>
+
+                    <a href="compareCards.html?product=deli">
+                        <div class="textBig">
+                            VEGAN DELI
+                        </div>
+                    </a>
+                    
+                    <div class="textSmall">
+                        Water, Vital Wheat Gluten, Organic Tofu, Soy Sauce, Expeller Pressed Canola Oil, Granulated Garlic, Salt, Spices
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            
+            <div class="columns" id="fish" role="main">
+
+                <div class="column">
+                    <a href="compareCards.html?product=tuna">
+                        <img class="round" alt="vegan tuna" src="links\veganTuna.png">
+                    </a>
+
+                    <a href="compareCards.html?product=tuna">
+                        <div class="textBig">
+                            VEGAN TUNA
+                        </div>
+                    </a>
+        
+                    <div class="textSmall">
+                        Water, Pea Protein Isolate, Soy Protein Concentrate, Chickpea Flour, Lentil Protein, Faba Protein, Navy Bean Flour, Algal Oil, Sea Salt, Sunflower Oil, Seaweed Powder, Citric Acid, Onion Powder, Yeast Extract, Garlic Powder
+                    </div>
+
+                </div>
+
+                <div class="column">
+
+                    <a href="compareCards.html?product=crabCake">
+                        <img class="round" alt="vegan crab cake" src="links\veganCrabCake.png">
+                    </a>
+        
+                    <a href="compareCards.html?product=crabCake">
+                        <div class="textBig">
+                            VEGAN CRAB CAKE
+                        </div>
+                    </a>
+        
+                    <div class="textSmall">
+                        Water, Pea Protein Isolate, Soy Protein Concentrate, Chickpea Flour, Faba Protein, Lentil Protein, Soy Protein Isolate, Navy Bean Powder, Red Bell Peppers, Green Onions, Sunflower Oil, Corn Starch, Italian Flat Leaf Parsley, Lemon Juice, Salt, Methylcellulose, Onion Powder, Algal Oil, Paprika, Spices, Yeast Extract, Garlic Powder
+                    </div>
+                </div>
+
+
+                <div class="column">
+                    <a href="compareCards.html?product=shrimp">
+                        <img class="round" alt="vegan shrimp" src="links\veganShrimp.png">
+                    </a>
+
+                    <a href="compareCards.html?product=shrimp">
+                        <div class="textBig">
+                            VEGAN SHRIMP
+                        </div>
+                    </a>
+        
+                    <div class="textSmall">
+                        Water, Modified Starch, Sunflower Oil, Glucomannan, Pea Extract, Sea Salt, Seaweed Extract, Brown Sugar                
+                    </div>
+                </div>
+
+
+            </div>
+
+            <a href="index.html" role="complementary" class="button">
+                back to homepage
+            </a>
+
+        </div>
+        
+    
+
+    </body>
+
+</html>
