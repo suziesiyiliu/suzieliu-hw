@@ -1,7 +1,7 @@
 
 
 .background-image {
-	background-position: center center;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -49,12 +49,12 @@
 
 
 
-.image{
+/*.image{
     width: 100%;
     opacity:1;
     display:block;
     transition:0.5s ease;
-    backface-visibility:visible;}
+    backface-visibility:visible;}*/
 
 .title{
     width:30%;
